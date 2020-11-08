@@ -1,0 +1,32 @@
+.sign-in {
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+
+  .title {
+    margin: 10px 0;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.style{
+  background-color:#4285f4;
+  color: white;
+  letter-spacing: 0.5px;
+  padding: 0 35px 0 35px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: 'Open Sans Condensed';
+  font-weight: bolder;
+  cursor: pointer;
+  border:none;
+
+  &:hover{
+      background-color :#357ae8;
+      border:none;
+    }
+}
